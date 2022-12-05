@@ -1,0 +1,46 @@
+Arguments: 
+  D:\nodejs\node.exe C:\Users\Aaron\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add typescript -D
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;d:\Git\cmd;D:\nodejs\;d:\Tencent\微信web开发者工具\dll;D:\Tesseract-OCR;C:\Users\Aaron\AppData\Local\Yarn\Data\global\node_modules\.bin;C:\Users\Aaron\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Aaron\AppData\Local\Programs\Python\Python311\;C:\Users\Aaron\AppData\Local\Microsoft\WindowsApps;C:\Shortcut;d:\Microsoft VS Code\bin;C:\Users\Aaron\AppData\Roaming\npm;D:\phpstudy_pro\Extensions\php\php7.3.4nts;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.22.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+
+npm manifest: 
+  {
+    "name": "axios",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/shuo-china/axios.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/shuo-china/axios/issues"
+    },
+    "homepage": "https://github.com/shuo-china/axios#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
