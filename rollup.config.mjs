@@ -4,7 +4,8 @@ export default {
   input: 'src/index.ts',
   output: {
     file: 'dist/bundle.esm.js',
-    format: 'es'
+    format: 'es',
+    plugins: []
   },
   plugins: [rollupTypescript()]
 }
